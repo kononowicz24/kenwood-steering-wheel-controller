@@ -1,3 +1,10 @@
+// 2023-05-19 k24: The below code was modified to be used with a custom controller and Audi A8 D2 FL steering wheel.
+
+/* pilot1.c
+ * Ford SWC to Kenwood radio (NEC protocol) adapter
+ * Author: Michal Babik <michalb1981@o2.pl>
+ */
+
 #include <Arduino.h>
 #include <SoftPWM.h>
 
