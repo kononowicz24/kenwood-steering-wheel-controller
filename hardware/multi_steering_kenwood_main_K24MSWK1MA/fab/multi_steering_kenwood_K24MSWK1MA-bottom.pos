@@ -1,0 +1,15 @@
+### Module positions - created on 10/08/21 19:28:53 ###
+### Printed by Pcbnew version kicad (5.1.9)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                 PosX       PosY       Rot  Side
+C6        100N_16V  C_0603_1608Metric   127.5065  -114.6478    0.0000  bottom
+C7        100N_16V  C_0603_1608Metric   123.2065  -118.3978    0.0000  bottom
+R5        0R        R_0603_1608Metric   118.4065  -115.6478   90.0000  bottom
+R6        0R        R_0603_1608Metric   116.9565  -115.6478   90.0000  bottom
+R7        0R        R_0603_1608Metric   114.2065  -115.6478   90.0000  bottom
+R8        0R        R_0603_1608Metric   111.7065  -115.6478   90.0000  bottom
+R9        0R        R_0603_1608Metric   109.7065  -115.6478   90.0000  bottom
+R10       10K       C_0603_1608Metric   107.3065  -118.1478  180.0000  bottom
+R11       0R        R_0603_1608Metric   107.4565  -115.1478  180.0000  bottom
+## End
