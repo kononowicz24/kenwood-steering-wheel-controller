@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J1
 U 1 1 65166475
 P 3400 2500
-F 0 "J?" H 3508 2771 50  0000 C CNN
+F 0 "J1" H 3508 2771 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3508 2680 50  0000 C CNN
 F 2 "K24LIB:pogopin_2.6_3.2" H 3508 2589 50  0000 C CNN
 F 3 "~" H 3400 2500 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "~" H 3400 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J2
 U 1 1 65166CF1
 P 3400 2850
-F 0 "J?" H 3508 3121 50  0000 C CNN
+F 0 "J2" H 3508 3121 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3508 3030 50  0000 C CNN
 F 2 "K24LIB:pogopin_2.6_3.2" H 3508 2939 50  0000 C CNN
 F 3 "~" H 3400 2850 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 3400 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J3
 U 1 1 6516714D
 P 3400 3200
-F 0 "J?" H 3508 3471 50  0000 C CNN
+F 0 "J3" H 3508 3471 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3508 3380 50  0000 C CNN
 F 2 "K24LIB:pogopin_2.6_3.2" H 3508 3289 50  0000 C CNN
 F 3 "~" H 3400 3200 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 3400 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J5
 U 1 1 651674C6
 P 3400 3550
-F 0 "J?" H 3508 3821 50  0000 C CNN
+F 0 "J5" H 3508 3821 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3508 3730 50  0000 C CNN
 F 2 "K24LIB:pogopin_2.6_3.2" H 3508 3639 50  0000 C CNN
 F 3 "~" H 3400 3550 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 3400 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J6
 U 1 1 651679E0
 P 3400 3900
-F 0 "J?" H 3508 4171 50  0000 C CNN
+F 0 "J6" H 3508 4171 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3508 4080 50  0000 C CNN
 F 2 "K24LIB:pogopin_2.6_3.2" H 3508 3989 50  0000 C CNN
 F 3 "~" H 3400 3900 50  0001 C CNN
@@ -69,14 +69,203 @@ F 3 "~" H 3400 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Male J?
+L Connector:Conn_01x01_Male J7
 U 1 1 65167EDD
 P 3400 4250
-F 0 "J?" H 3508 4521 50  0000 C CNN
+F 0 "J7" H 3508 4521 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 3508 4430 50  0000 C CNN
 F 2 "K24LIB:pogopin_2.6_3.2" H 3508 4339 50  0000 C CNN
 F 3 "~" H 3400 4250 50  0001 C CNN
 	1    3400 4250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x06_Female J4
+U 1 1 65182A6F
+P 6800 3300
+F 0 "J4" H 6828 3276 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 6828 3185 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 6800 3300 50  0001 C CNN
+F 3 "~" H 6800 3300 50  0001 C CNN
+	1    6800 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2500 4850 2500
+Wire Wire Line
+	4850 2500 4850 3100
+Wire Wire Line
+	4850 3100 6250 3100
+Wire Wire Line
+	6600 3200 5950 3200
+Wire Wire Line
+	4750 3200 4750 2850
+Wire Wire Line
+	4750 2850 3600 2850
+Wire Wire Line
+	6600 3300 5650 3300
+Wire Wire Line
+	4650 3300 4650 3200
+Wire Wire Line
+	4650 3200 3600 3200
+Wire Wire Line
+	6600 3400 5350 3400
+Wire Wire Line
+	4200 3400 4200 3550
+Wire Wire Line
+	4200 3550 3600 3550
+Wire Wire Line
+	4450 3500 4450 3900
+Wire Wire Line
+	4450 3900 3600 3900
+Wire Wire Line
+	6600 3600 4750 3600
+Wire Wire Line
+	4550 3600 4550 4250
+Wire Wire Line
+	4550 4250 3600 4250
+Wire Wire Line
+	4450 3500 5050 3500
+$Comp
+L Device:C C1
+U 1 1 65185742
+P 4750 4100
+F 0 "C1" H 4865 4146 50  0000 L CNN
+F 1 "C" H 4865 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4788 3950 50  0001 C CNN
+F 3 "~" H 4750 4100 50  0001 C CNN
+	1    4750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3950 4750 3600
+Connection ~ 4750 3600
+Wire Wire Line
+	4750 3600 4550 3600
+Wire Wire Line
+	5050 3950 5050 3500
+Connection ~ 5050 3500
+Wire Wire Line
+	5050 3500 6600 3500
+Wire Wire Line
+	5350 3950 5350 3400
+Connection ~ 5350 3400
+Wire Wire Line
+	5350 3400 4200 3400
+Wire Wire Line
+	5650 3950 5650 3300
+Connection ~ 5650 3300
+Wire Wire Line
+	5650 3300 4650 3300
+Wire Wire Line
+	5950 3950 5950 3200
+Connection ~ 5950 3200
+Wire Wire Line
+	5950 3200 4750 3200
+Wire Wire Line
+	6250 3950 6250 3100
+Connection ~ 6250 3100
+Wire Wire Line
+	6250 3100 6600 3100
+$Comp
+L power:GND #PWR01
+U 1 1 6518C973
+P 5400 4600
+F 0 "#PWR01" H 5400 4350 50  0001 C CNN
+F 1 "GND" H 5405 4427 50  0000 C CNN
+F 2 "" H 5400 4600 50  0001 C CNN
+F 3 "" H 5400 4600 50  0001 C CNN
+	1    5400 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4600 5400 4400
+Connection ~ 5400 4250
+$Comp
+L Connector:Conn_01x01_Female J8
+U 1 1 6518E052
+P 5600 4400
+F 0 "J8" H 5628 4426 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 5628 4335 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.75sqmm_1x01_D1.25mm_OD3.5mm" H 5600 4400 50  0001 C CNN
+F 3 "~" H 5600 4400 50  0001 C CNN
+	1    5600 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5400 4400
+Wire Wire Line
+	5400 4400 5400 4250
+Wire Wire Line
+	4750 4250 5050 4250
+Wire Wire Line
+	5400 4250 5650 4250
+$Comp
+L Device:C C2
+U 1 1 6518E8F0
+P 5050 4100
+F 0 "C2" H 5165 4146 50  0000 L CNN
+F 1 "C" H 5165 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5088 3950 50  0001 C CNN
+F 3 "~" H 5050 4100 50  0001 C CNN
+	1    5050 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5050 4250
+Wire Wire Line
+	5050 4250 5350 4250
+$Comp
+L Device:C C3
+U 1 1 6518ED40
+P 5350 4100
+F 0 "C3" H 5465 4146 50  0000 L CNN
+F 1 "C" H 5465 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5388 3950 50  0001 C CNN
+F 3 "~" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 4250
+Wire Wire Line
+	5350 4250 5400 4250
+$Comp
+L Device:C C4
+U 1 1 6518F090
+P 5650 4100
+F 0 "C4" H 5765 4146 50  0000 L CNN
+F 1 "C" H 5765 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5688 3950 50  0001 C CNN
+F 3 "~" H 5650 4100 50  0001 C CNN
+	1    5650 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5650 4250
+Wire Wire Line
+	5650 4250 5950 4250
+$Comp
+L Device:C C5
+U 1 1 6518F361
+P 5950 4100
+F 0 "C5" H 6065 4146 50  0000 L CNN
+F 1 "C" H 6065 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5988 3950 50  0001 C CNN
+F 3 "~" H 5950 4100 50  0001 C CNN
+	1    5950 4100
+	1    0    0    -1  
+$EndComp
+Connection ~ 5950 4250
+Wire Wire Line
+	5950 4250 6250 4250
+$Comp
+L Device:C C6
+U 1 1 6518F5E6
+P 6250 4100
+F 0 "C6" H 6365 4146 50  0000 L CNN
+F 1 "C" H 6365 4055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 3950 50  0001 C CNN
+F 3 "~" H 6250 4100 50  0001 C CNN
+	1    6250 4100
+	1    0    0    -1  
+$EndComp
+Text Notes 6500 3850 0    50   ~ 0
+place 0R in one of C1-C6 if one of the lines is connected to GND\n
 $EndSCHEMATC
